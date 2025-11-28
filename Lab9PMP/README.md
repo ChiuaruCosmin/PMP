@@ -37,7 +37,7 @@ Este o distributie pe parametrul latent n.
 Distributia predictiva pentru un viitor numar de cumparatori Y* este:
 
 $$
-p(Y^{*} \mid Y, \theta) = \sum_{n} p(Y^{*} \mid n, \theta)\, p(n \mid Y, \theta)
+p(Y^* \mid Y, \theta) = \sum_{n} p(Y^* \mid n, \theta)\, p(n \mid Y, \theta)
 $$
 
 Aceasta combinatie include:
@@ -46,3 +46,4 @@ Aceasta combinatie include:
 
 De aceea, distributia pentru Y* este in general mai larga decat posteriorul lui n:  
 Y* descrie un rezultat viitor, nu un parametru latent.
+
